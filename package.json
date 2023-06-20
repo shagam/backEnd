@@ -1,0 +1,34 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Stocks-compare backEnd",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "nodejs": "node app.js",
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shagam/backEnd.git"
+  },
+  "keywords": [
+    "backEnd",
+    "stockChare",
+    "netlify",
+    "express"
+  ],
+  "author": "Eli Shagam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shagam/backEnd/issues"
+  },
+  "homepage": "https://github.com/shagam/backEnd#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0"
+  }
+}
