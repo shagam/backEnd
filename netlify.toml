@@ -8,4 +8,6 @@
     to = "/.netlify/functions/api:splat"
     from = "/*
     ataus = 200
-    
+
+[[plugins]]
+    package = "@netlify/plugin-nextjs"
